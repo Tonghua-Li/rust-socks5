@@ -1,0 +1,14 @@
+[package]
+name = "proxy"
+version = "0.1.0"
+authors = ["tonghua"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4.0"
+env_logger = "0.7.1"
+tokio = { version = "0.2", features = ["full"] }
+futures = "0.3"
+# hex = "0.4.2"
